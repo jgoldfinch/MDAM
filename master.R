@@ -6,12 +6,12 @@
 ###Master code###
 
 #Set working directory
-setwd("R:\JessieGolding\fromDanielle")
+setwd("C:\\Users\\jessie.golding\\Documents\\GitHub\\MDAM")
 
 #Load packages needed for MDAM
 source("run_loadpackages.R")
 
-#Load case study data 
+#Load pilot season data 
 
 #Read data from csv file using access to R file
 source("nbr.mdam.R")
