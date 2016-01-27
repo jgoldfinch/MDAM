@@ -87,7 +87,7 @@ for (i in 1:n.sites){
 n.observers<-length(unique(mdam$prim))
 p <-matrix(NA, n.observers, n.sp)
 p<-runif(n.observers)
-p<-cbind(p,p,p,p)
+p<-cbind(p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p)
 pst<-matrix(p, ncol = ncol(p), dimnames = NULL)
 
 init.vals <-function(){list(
@@ -98,7 +98,7 @@ out <- jags(jags.dat,
             init.vals,
             pars,
             "nbr_mdam_model.txt",
-            n.chains = 2,
+            n.chains = 3,
             15000,
             1000,
             1)
