@@ -1,24 +1,25 @@
 #Multispecies dependent double-observer model 
 #Author: Jessie Golding
-#7/31/2015
+#1/28/2016
 
 ### R code for loading packages needed for MDAM ###
 
-# Install Packages
-install.packages("plyr")
-install.packages("dplyr")
-install.packages("car")
-install.packages("R2jags")
-install.packages("raster")
-install.packages("rgdal")
-install.packages("stringr")
-install.packages("ggplot2")
-install.packages("wesanderson")
-install.packages("gridExtra")
-install.packages("reshape2")
-install.packages("RColorBrewer")
-install.packages("RODBC")
-install.packages("mcmcplots")
+# Install Packages if not installed
+
+if("plyr" %in% rownames(installed.packages()) == FALSE) {install.packages("plyr")}
+if("dplyr" %in% rownames(installed.packages()) == FALSE) {install.packages("dplyr")}
+if("car" %in% rownames(installed.packages()) == FALSE) {install.packages("car")}
+if("R2jags" %in% rownames(installed.packages()) == FALSE) {install.packages("R2jags")}
+if("raster" %in% rownames(installed.packages()) == FALSE) {install.packages("raster")}
+if("rgdal" %in% rownames(installed.packages()) == FALSE) {install.packages("rgdal")}
+if("stringr" %in% rownames(installed.packages()) == FALSE) {install.packages("stringr")}
+if("ggplot2" %in% rownames(installed.packages()) == FALSE) {install.packages("ggplot2")}
+if("wesanderson" %in% rownames(installed.packages()) == FALSE) {install.packages("wesanderson")}
+if("gridExtra" %in% rownames(installed.packages()) == FALSE) {install.packages("gridExtra")}
+if("reshape2" %in% rownames(installed.packages()) == FALSE) {install.packages("reshape2")}
+if("RColorBrewer" %in% rownames(installed.packages()) == FALSE) {install.packages("RColorBrewer")}
+if("RODBC" %in% rownames(installed.packages()) == FALSE) {install.packages("RODBC")}
+if("mcmcplots" %in% rownames(installed.packages()) == FALSE) {install.packages("mcmcplots")}
 
 
 
