@@ -1,1 +1,9 @@
+#Multispecies dependent double-observer model (MDAM)
+#Authors: Jessie Golding and Danielle Fagre
+#Code for analyzing Danielle Fagre's pilot season (summer 2015)
+#songbird data from the National Bison Range 
+
+###Files to ignore on github###
+*.csv
+
 
